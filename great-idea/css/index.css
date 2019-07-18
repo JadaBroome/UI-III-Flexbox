@@ -64,3 +64,135 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* General Styles */
+body {
+	line-height: 1.5;
+	max-width: 875px;
+	margin: 0 auto;
+	font-size: 62.5%;
+}
+
+h2{
+	font-size: 1rem;
+}
+
+p {
+	font-size: 1rem; 
+}
+
+/* HEADER STYLES */
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+nav a {
+	text-decoration: none;
+	color:#8a8686;
+	text-align: center;
+	font-size: 1rem;
+}
+
+/* Index.html */
+	/*TopSection*/
+header {
+	display: flex;
+	text-align: center;
+	align-content: center;
+	justify-content: space-around;
+	margin-top: 3rem;
+	margin-bottom: 4rem;
+}
+
+.mainImg {
+	width: 23rem;
+	height: 23rem;
+	margin-right: 3rem;
+}
+
+h1 {
+	font-size: 4rem;
+	line-height: 3.8rem;
+	margin: 5rem 5rem 1rem 5rem;
+}
+
+.btn-home {
+	background-color: white;
+	border: 1px solid black; 
+	width: 8.5rem;
+	height: 1.8rem;
+
+}
+
+	/*MiddleSection*/
+.topContent {
+	display: flex;
+	justify-content: space-between;
+	/* font-size: 1rem; */
+	margin-bottom: 2rem;
+}
+
+.features {
+	margin-right: 5px;
+
+}
+
+.about {
+	margin-left: 5px;
+}
+.bottomContent {
+	display: flex;
+	/* font-size: 1rem; */
+	margin-top: 2rem;
+}
+	/*Footer*/
+
+
+
+/* Services */ 
+.services-header-img{
+	width: 54rem;
+	height: 10rem;
+}
+
+.topContent-services {
+	display: flex;
+	flex-direction: column;
+}
+
+.first {
+	display: flex;
+}
+
+.one {
+	margin-bottom: 25px;
+	
+}
+
+.second {
+	display: flex;
+	margin-bottom: 25px;
+}
+
+.two {
+	margin-bottom: 25px;
+}
+
+
+.third {
+	display: flex;
+}
+
+.bottomContent-services {
+	display: flex;
+}
+
+.btn-services {
+	background-color: white;
+	border: 1px solid black; 
+	width: 8.5rem;
+	height: 1.8rem;
+	border-radius: .5rem;
+}	
