@@ -81,6 +81,11 @@ p {
 	font-size: 1rem; 
 }
 
+footer {
+	text-align: center;
+	font-size: .8rem;
+}
+
 /* HEADER STYLES */
 nav {
 	display: flex;
@@ -135,12 +140,12 @@ h1 {
 }
 
 .features {
-	margin-right: 5px;
+	justify-content: space-between;
 
 }
 
 .about {
-	margin-left: 5px;
+	justify-content: space-between;
 }
 .bottomContent {
 	display: flex;
@@ -160,10 +165,13 @@ h1 {
 .topContent-services {
 	display: flex;
 	flex-direction: column;
+	border-bottom: 1px solid black;
+	padding-bottom: 1rem;
 }
 
 .first {
 	display: flex;
+	margin-top: 1rem;
 }
 
 .one {
@@ -183,10 +191,15 @@ h1 {
 
 .third {
 	display: flex;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid black;
 }
 
 .bottomContent-services {
 	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+	margin-bottom: 4rem;
 }
 
 .btn-services {
@@ -195,4 +208,13 @@ h1 {
 	width: 8.5rem;
 	height: 1.8rem;
 	border-radius: .5rem;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
 }	
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+	font-size: 1rem;
+	margin: 1rem 2rem;
+}
